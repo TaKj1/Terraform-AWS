@@ -32,11 +32,4 @@ pipeline{
                 sh 'pwd;cd terraform/ ; terraform show -no-color tfplan > tfplan.txt'
             }
         }
-
-
-
-
-
-
-
-}
+}}
