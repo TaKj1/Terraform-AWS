@@ -15,7 +15,7 @@ pipeline{
 
             stage('checkout'){
                 script{
-                    dir("terraform")
+                    
                     {
                         git "https://github.com/TaKj1/Terraform-AWS"
                     }
